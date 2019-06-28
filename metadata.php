@@ -4,7 +4,7 @@
  * @author 	Gregor Wendland <gregor@gewend.de>
  * @copyright Copyright (c) 2019, Gregor Wendland
  * @package gw
- * @version 2019-06-20
+ * @version 2019-06-28
  */
 
 /**

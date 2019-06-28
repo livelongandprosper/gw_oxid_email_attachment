@@ -44,7 +44,7 @@
 		}
 
 		public static function onActivate() {
-
+			// TODO: create folder /out/attachments and it's subfolders and maybe add .htaccess to deny access from outside
 
 			$oDbMetaDataHandler = oxNew(DbMetaDataHandler::class);
 			$oDbMetaDataHandler->updateViews();
