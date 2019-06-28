@@ -1,0 +1,21 @@
+{
+  "name": "gw/gw_oxid_email_attachment",
+  "description": "Email file attachments module for OXID eShop 6.x",
+  "type": "oxideshop-module",
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
+      "target-directory": "gw/gw_oxid_email_attachment"
+    }
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "gw\\gw_oxid_email_attachment\\": "./"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+"autoload": {
+  "psr-4": {
+    "gw\\gw_oxid_email_attachment\\" : "./source/modules/gw/gw_oxid_email_attachment"
+  }
+}
